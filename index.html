@@ -3,7 +3,7 @@
 <head>
     <title>My Website</title>
         <link rel="stylesheet" type="text/css" href="css/style.css">
-
+<script src="js/script.js"></script>
 </head>
 <body id="index">
     <nav>
@@ -25,34 +25,28 @@
     
        <h1 class="page-heading">Login</h1>
        
-       <div class="form">
           
-          <form method="post" action="process.php">
               
               <p>
               <label for="name">Name:</label> &nbsp; &nbsp; &nbsp; &nbsp;
-              <input type="text" name="name" placeholder="Your Name" required>
+              <input id="name" type="text" name="name" placeholder="Your Name" required>
               
               </p>
               
               <p>
               <label for="name">Email:</label> &nbsp; &nbsp; &nbsp; &nbsp;
-              <input type="email" name="email" placeholder="Your Email" required>
+              <input id="email" type="email" name="email" placeholder="Your Email" required>
               
               </p>
               
               <label for="name">Password:</label> &nbsp;
-              <input type="password" name="pass" placeholder="password" required>
+              <input id="pass" type="password" name="pass" placeholder="password" required>
             <p>
-            <input id="input" type="submit" name="submit" >
+<button type="button" onclick="myFunction()">Submit</button>
 
               </p>
-              
-          </form>
-           
-           
-       </div>
-  
+                         
+          
  
 
 
