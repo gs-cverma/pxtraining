@@ -10,7 +10,7 @@ function myFunction() {
    var x = document.getElementById("name").value;
   var y = document.getElementById("email").value;   
 
- if (y == 'cverma@gainsight.com' y == 'shekhar84.verma@gmail.com' || y == 'a@gainsight.com' || y == 'b@gainsight.com' ) {
+ if (y == 'cverma@gainsight.com' || y == 'shekhar84.verma@gmail.com' || y == 'a@gainsight.com' || y == 'b@gainsight.com' ) {
  
 aptrinsic("identify",
   {
