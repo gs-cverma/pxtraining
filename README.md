@@ -1,2 +1,1 @@
-# pxtraining
-training purpose
+# px-training
