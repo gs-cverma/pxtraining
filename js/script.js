@@ -10,14 +10,14 @@ function myFunction() {
    var x = document.getElementById("name").value;
   var y = document.getElementById("email").value;   
 
- if (y == 'cverma@gainsight.com') {
+ if (y == 'cverma@gainsight.com' y == 'shekhar84.verma@gmail.com' || y == 'a@gainsight.com' || y == 'b@gainsight.com' ) {
  
 aptrinsic("identify",
   {
   //User Fields
     "id": x, // Required for logged in app users
     "email": y,
-    "firstName": c,
+    "firstName": x,
     "lastName": "",
   },
   {
