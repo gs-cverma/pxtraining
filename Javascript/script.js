@@ -8,7 +8,7 @@
 function allowlogin(usermail)
 {
     var a = document.getElementById("usermail").value;
-    if (a == 'demouser@gmail.com' || a == 'lkchittajallu@gainsight.com')
+    if (a == 'cverma@gainsight.com' || a == 'shekhar84.verma@gmail.com' || a == 'a@gainsight.com' || a == 'b@gainsight.com' )
     { 
         var b= a.substr(0,5);
       
