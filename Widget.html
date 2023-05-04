@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <title>
+        Widget
+    </title> 
+    <script src="Javascript/script.js"></script>
+    <link rel="stylesheet" href= "CSS/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+
+<body>
+    <div class="container">
+    <div id="picture-css">
+    </div>
+    
+    <nav class="menu">
+    
+        <a href="Page1.html">Products</a> &nbsp;&nbsp;&nbsp;
+        <a href="Page 2.html">About Us</a> &nbsp;&nbsp;&nbsp;
+        <a href="Widget.html">Widget</a> &nbsp;&nbsp;&nbsp;
+        <a href="Contact.html">Contact</a> &nbsp;&nbsp;&nbsp;
+        <a href="Loginpage.html">Logout</a> &nbsp;&nbsp;&nbsp;
+        
+    </nav>
+    <div class="dragred" class="ui-widget-content">
+        <p>Drag red</p>
+      </div>
+      <div class="dragblue" class="ui-widget-content">
+        <p>Drag blue</p>
+      </div>
+      <div class="draggreen" class="ui-widget-content">
+        <p>Drag Green</p>
+      </div>
+  <footer>
+    &copy; Demo for PX Web app &nbsp; &nbsp; &nbsp; &nbsp; created by Lalitha Chittajallu
+</footer>
+</div>
+<script>
+    $( function() {
+        $( ".dragred").draggable({
+            stop : function r() {aptrinsic('track','dragevent',{"name":"red drag", "color" : 'red'});}
+            
+        })
+      } );
+
+      $( function() {
+        $( ".dragblue").draggable({
+            stop : function r() {aptrinsic('track','dragevent',{"name":"blue drag", "color" : 'blue'});}
+            
+        })
+      } );
+
+      $( function() {
+        $( ".draggreen").draggable({
+            stop : function r() {aptrinsic('track','dragevent',{"name":"green drag", "color" : 'green'}); }
+            
+        })
+      } );
+
+    </script>
+</body>
+</html>
