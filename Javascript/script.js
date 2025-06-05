@@ -2,8 +2,9 @@
   (function(n,t,a,e,co){var i="aptrinsic";n[i]=n[i]||function(){
       (n[i].q=n[i].q||[]).push(arguments)},n[i].p=e;n[i].c=co;
     var r=t.createElement("script");r.async=!0,r.src=a+"?a="+e;
+    r.integrity="sha256-21a3c69a309edd917b260be6f0b3cefd8a9c6c6a2170823472a8b8a6cd1d8293";
     var c=t.getElementsByTagName("script")[0];c.parentNode.insertBefore(r,c)
-  })(window,document,"https://web-sdk.aptrinsic.com/api/aptrinsic.js","AP-4IRRDOAOY9E3-2");
+  })(window,document,"https://cdnjs-web-sdk.aptrinsic.com/web-sdk/0.54.18/api/aptrinsic.js","AP-4IRRDOAOY9E3-2");
 
 function allowlogin(usermail)
 {
