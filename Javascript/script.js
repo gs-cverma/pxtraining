@@ -2,9 +2,9 @@
     (function(n,t,a,e){var i="aptrinsic";n[i]=n[i]||function(){
       (n[i].q=n[i].q||[]).push(arguments)},n[i].p=e;
     var r=t.createElement("script");r.async=!0,r.src=a+"?a="+e;
-    r.integrity="sha256-5409cbe9adcf2c7e1f81d2f68042b6834e2dda0193989c3e8510720a1ec95e2";
+    r.integrity="sha256-VAnL6a3PLH4fgdL2gEK2g04t2gGTmJw+hRByCh7JXic=";
     var c=t.getElementsByTagName("script")[0];c.parentNode.insertBefore(r,c)
-  })(window,document,"https://web-sdk.aptrinsic.com/api/aptrinsic.js","AP-4IRRDOAOY9E3-2");
+  })(window,document,"https://cdnjs-web-sdk.aptrinsic.com/web-sdk/0.54.18/api/aptrinsic.js","AP-4IRRDOAOY9E3-2");
 
 function allowlogin(usermail)
 {
