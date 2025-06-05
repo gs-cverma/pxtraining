@@ -3,6 +3,7 @@
       (n[i].q=n[i].q||[]).push(arguments)},n[i].p=e;
     var r=t.createElement("script");r.async=!0,r.src=a+"?a="+e;
     r.integrity="sha256-VAnL6a3PLH4fgdL2gEK2g04t2gGTmJw+hRByCh7JXic=";
+    r.crossOrigin="anonymous";
     var c=t.getElementsByTagName("script")[0];c.parentNode.insertBefore(r,c)
   })(window,document,"https://cdnjs-web-sdk.aptrinsic.com/web-sdk/0.54.18/api/aptrinsic.js","AP-4IRRDOAOY9E3-2");
 
